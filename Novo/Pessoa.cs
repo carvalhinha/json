@@ -27,9 +27,10 @@ namespace Novo
         public List<string> Tags { get; set; }
         public List<Friends> Friends { get; set; }       
         public EmissaoDigital Emissao { get; set; }
+       
         public override string ToString()
         {
-            return $"{Index}\n{Name}\n{Gender}\n{Email}\n{Phone} ";
+            return $"posisção: {Index}\nnome: {Name}\nsexo: {Gender}\nemail: {Email}\ntelefone: {Phone}\n ";
         }
     }
 }
